@@ -1,0 +1,61 @@
+
+
+import java.util.List;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
+import org.springframework.data.domain.Sort.Order;
+
+
+/**
+ * Spring自带多条件排序    前端组件SortComponent配合其使用
+ * @author xjx
+ *
+ */
+public class PageBeanWithSorters {
+	
+	private Integer pageNo = 1;
+	private Integer pageSize = 10;
+	List<Order> orders;
+	
+	public Pageable Pageable() {
+		if(orders == null) {
+			return PageRequest.of(getPageNo() - 1, getPageSize());
+		}
+//		orders.stream().filter(new Predicate<Order>() {
+//			@Override
+//			public boolean test(Order t) {
+//				return !"".equals(t.getProperty());
+//			}
+//		});
+		return PageRequest.of(getPageNo() - 1, getPageSize(), Sort.by(orders));
+	}
+	
+
+	public Integer getPageNo() {
+		return pageNo;
+	}
+
+	public void setPageNo(Integer pageNo) {
+		this.pageNo = pageNo;
+	}
+
+	public Integer getPageSize() {
+		return pageSize;
+	}
+
+	public void setPageSize(Integer pageSize) {
+		this.pageSize = pageSize;
+	}
+
+	
+	public List<Order> getOrders() {
+		return orders;
+	}
+
+	public void setOrders(List<Order> orders) {
+		this.orders = orders;
+	}
+	
+	
+}
