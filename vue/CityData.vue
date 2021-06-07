@@ -96,7 +96,6 @@ export default class CityData extends Vue {
       return res;
     })
   }
-  
   protected handleOk() {
     const stable: STable = this.$refs.table as STable
     stable.refresh()
