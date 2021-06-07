@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
-测试controller
+ 测试controller
 **/
 @RestController
 @RequestMapping("/api")
