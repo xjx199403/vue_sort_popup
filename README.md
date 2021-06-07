@@ -1,10 +1,10 @@
 vue + spring mvc
 
 前端：  
------多条件排序的vue组件，传入一个存放排序参数的json对象，可以在任何父组件中使用;
+-----多条件排序的vue组件，传入一个存放排序参数的json对象，可以在任何父组件中使用;  
 
---从0开始使用请看这里：https://pro.antdv.com/docs/getting-started ，跟着他搭建一个简单的ant-vue-design项目;
---只需要排序组件的可以直接取走 sortComponent.vue这个子组件。
+--从0开始使用请看这里：https://pro.antdv.com/docs/getting-started ，跟着他搭建一个简单的ant-vue-design项目;  
+--只需要排序组件的可以直接取走 sortComponent.vue这个子组件。  
 
   UI：
     -----本例子组件用了ant-design-vue的ui:https://www.antdv.com/docs/vue/introduce-cn/
