@@ -128,7 +128,7 @@ export default class SortComponent extends Vue {
           i--;
 　　    }
       }
-      console.log("===========query with sorted params:" + querySelected);
+      console.log("============query with sorted params:" + querySelected);
       this.visible = false;
       this.$emit('sortOk', querySelected);
   }
