@@ -4,14 +4,14 @@ import java.io.Serializable;
 import java.util.List;
 
 import org.springframework.data.domain.Page;
-
+	
+/**
+ * 分页实体类
+ */
 
 public class PageData<T> implements Serializable {
 
-	
-	/**
-	 * 
-	 */
+
 	private static final long serialVersionUID = 1L;
 	private Integer totalPage;
 	private Integer pageSize;
