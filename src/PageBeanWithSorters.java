@@ -8,7 +8,7 @@ import org.springframework.data.domain.Sort.Order;
 
 
 /**
- * Spring自带多条件排序    前端组件SortComponent配合其使用
+ * 后台接收对象继承此类（包含排序与分页） 前端组件SortComponent配合其使用
  * @author xjx
  *
  */
