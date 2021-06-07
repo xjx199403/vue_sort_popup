@@ -8,7 +8,7 @@ import org.springframework.data.domain.Sort.Order;
 
 
 /**
- * 后台接收对象继承此类（包含排序与分页） 前端组件SortComponent配合其使用
+ * 后台接收对象继承此类（包含排序与分页） 前端组件s-table和SortComponent配合其使用
  * @author xjx
  *
  */
