@@ -1,5 +1,8 @@
 ### vue + spring mvc
 
+### 图示：
+
+
 #### 前端： 
 * 核心组件 SortComponent.vue
 * 作为一个多条件排序的vue弹出框组件; 引入组件, 传入一个存放排序参数的json对象, 如：[{value: 'price', text: '价格'}, {value: 'num', text: '数量'}], 即可在弹出框中选择多个条件进行排序，可以在任何父组件中使用
