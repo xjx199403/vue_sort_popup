@@ -1,7 +1,7 @@
 ### vue + spring mvc
 
 ### 图示：
-![Image text]:(https://github.com/xjx199403/vue_sort_popup/blob/main/sort.png)
+![Image text](https://github.com/xjx199403/vue_sort_popup/blob/main/sort.png)
 
 #### 前端： 
 * 核心组件 SortComponent.vue
